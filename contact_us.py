@@ -20,11 +20,9 @@ from email.mime.multipart import MIMEMultipart
 PORT = 994
 # SMTP_SERVER = "smtp.office365.com"
 SMTP_SERVER = "smtp.ym.163.com"
-# SENDER_EMAIL = "support@38fule.ca"
-SENDER_EMAIL = "bessiewang@mdrtfinancial.com"
+SENDER_EMAIL = "***@mdrtfinancial.com"
 # PASSWORD = "!1qazZ@2wsxX"
-PASSWORD = "juan1110"
-receiver_email = "bessie.wang538@gmail.com"
+receiver_email = "***@gmail.com"
 
 
 class UnitServer(server_base.BasicServer):
