@@ -1,0 +1,110 @@
+html * {
+  box-sizing: border-box;
+  --背景图案-加国福利: url(/gui_images/sprinkles.png);
+  --背景图案-精明理财: url(/gui_images/food.png);
+  --背景图案-安心保障: url(/gui_images/sakura.png);
+  --背景图案-合法避税: url(/gui_images/weather.png);
+  --背景图案-实时资讯: url(/gui_images/let-there-be-sun.png);
+}
+
+body {
+  grid-template-columns: 300px minmax(500px, 1fr) 10%;
+  grid-template-rows: [page-header-start] 6em [page-header-end article-title-start] 6em [article-title-end main-section-start] auto [main-section-end copyright-disclaimer-start] auto [copyright-disclaimer-end footer-start] auto [footer-end];
+}
+
+section.page-header {
+  grid-column: 1 / -1;
+}
+
+section#perspective-articles-list {
+  grid-column: 1 / 2;
+  grid-row: 2 / -1;
+  width: 100%;
+  height: 100%;
+  padding: 2em 1em;
+  background-color: antiquewhite;
+}
+
+section#perspective-articles-list ul {
+  position: fixed;
+  left: 15px;
+  top: 12em;
+  width: 260px;
+  margin: 15px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul>h2 {
+  color: gray;
+  margin-bottom: 2.5em;
+  border-bottom: solid thick #c4ddf5;
+}
+
+section#perspective-articles-list li {
+  height: 5em;
+  padding: 10px;
+}
+
+section#perspective-articles-list li.currently_selected_article {
+  /*font-size: 1.6em;*/
+}
+
+section#perspective-articles-list li.currently_selected_article a {
+  font-weight: bolder;
+}
+
+section#perspective-articles-list li:not(:last-of-type) {
+  border-top: thin solid lightgray;
+}
+
+section#perspective-articles-list li:last-of-type {
+  border-top: thin solid lightgray;
+  border-bottom: thick solid lightgray;
+}
+
+li>a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+h1.article-title {
+  grid-column: 2 / 3;
+  grid-row: article-title-start / article-title-end;
+}
+
+p#editor-logo {
+  font-style: italic;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+section.main-section {
+  grid-column: 2 / 4;
+  padding: 25px;
+  padding-top: 0;
+  border-radius: 20px;
+  overflow: auto;
+  height: 80vh;
+}
+
+article {
+  padding: 1.5em;
+}
+
+article p {
+  line-height: 2;
+}
+
+section#copyright-disclaimer {
+  grid-column: 2 / -1;
+  grid-row: copyright-disclaimer-start / copyright-disclaimer-end;
+  text-align: center;
+}
+
+ul>h2>span>a {
+  display: contents;
+  text-decoration: none;
+  color: inherit;
+}

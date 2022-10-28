@@ -1,0 +1,31 @@
+<%!
+  import urllib
+%>
+
+
+
+<%inherit file="basepage.mako"/>
+
+<%block name="html_head">
+  ${parent.html_head()}
+  <link rel="stylesheet" type="text/css" href="/static/perspective_category.css">
+</%block>
+
+  
+  <img class="title-img" src="/gui_images/banner_MDRT_perspective.png"></img>
+  
+  <section class="main-section">
+    
+    <h1 id="subcategory_name">${subcategory_name}</h1>
+    
+    % for article in subcategory_node[1]:
+    <div class="card article">
+      <h3><a href="/our_perspectives/perspective_article?article_identifier=${urllib.parse.quote(article[0])}">${article[1]['article_title']}</a></h3>
+      <p class="article-excerpt">
+        ${article[1]['article_excerpt']}
+      </p>
+      <a href="/our_perspectives/perspective_article?article_identifier=${urllib.parse.quote(article[0])}" class="more-details">详情阅读</a>
+    </div>
+    % endfor
+    
+  </section>

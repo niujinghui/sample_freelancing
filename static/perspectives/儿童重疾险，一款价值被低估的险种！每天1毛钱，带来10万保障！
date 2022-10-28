@@ -1,0 +1,100 @@
+
+                            <%inherit file="perspective_template.mako"/>
+                            <p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">MSP计划向大众提供免费医疗，在达到公平的同时，却存在着严重的效率问题，如看病等待的时间越来越长，保障越来越少等。再比如，有些治疗癌症的药物非常昂贵，却不包含在MSP计划中。针对这个问题，重大疾病保险CI（ Critical illness insurance）给出了解决方案。当大病发生时，可一次性免税得到一张和保额等值的支票，患者可用于治病买药、请人照料、贴补家用、或环游世界、潇洒人生走一回。CI是投保人完全自己受益，不但救命、还能延年，因为患者大病之后活下来，不能挣钱却需要更多的钱来休养，CI就是这么一种雪中送炭的产品。</span></p>
+<p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">对于小孩子而言，重疾险是否有必要买呢？如果孩子生重病了，没钱看病时大人该怎么办时？</span></p>
+<p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">如果孩子生病了，父母可以卖房子、卖地、卖器官、求人、捡破烂，也给孩子治病。而如果父母得病了，父母都被迫选择了放弃，不想成为孩子们的拖累。这实令人心酸，我不得不说，保险让生活更美好</span><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">!</span></p>
+<p style="margin: 0cm; text-align: justify; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #333333;">&nbsp;</span></p>
+<p style="margin: 0cm; font-size: 12pt; font-family: 'Times New Roman', serif;"><strong><span style="font-size: 14.0pt; font-family: SimSun;">儿童重疾发病率逐年上升</span></strong></p>
+<p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">随着环境污染、食品安全问题的日益突出，儿童重大疾病的发病率逐年上升。据统计，目前平均每</span><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">1000名儿童，从0岁生长到18岁，就至少有2名身患重疾！恶性肿瘤已成为小儿主要死亡原因之一，仅次于意外伤亡，居第二位。尤其是白血病，据统计，中国目前至少有400万白血病患者，且还在以每年3万至4万的速度增加，而增加的患者中，50％是年幼的儿童。</span></p>
+<p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">虽然少儿重疾可怕，但少儿重疾的治愈率却是非常高的。有数据表明，</span><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">90%以上的患儿可获得完全缓解，再经过两三年的巩固治疗，80%的患儿可以获得根治。可是，与高治愈率相伴的是高额治疗费用，比如治愈一例白血病患儿，平均需要3-5年时间，花费在几万到几十万元不等，这对许多家庭而言是难以承受的，相当一部分人因此被迫放弃了治疗的希望。</span></p>
+<p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">&nbsp;</span></p>
+<p style="margin: 0cm; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 14.0pt; font-family: SimSun;">儿童重疾险产品</span></strong></p>
+<p style="margin: 0cm; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 14.0pt; font-family: 'Times New Roman', serif;">&nbsp;</span></strong></p>
+<p style="margin: 0cm; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">儿童重疾险贵吗？这是一款性价比极高的产品，也是我们极力推荐给每个家长都应该看到的。当前市场中，提供儿童重疾险的加拿大保险公司不少，适用于出生</span><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">30天到17岁的儿童。但是通常最多保障到25岁，然后再转为成人险。保额也有限制。</span></p>
+<p style="margin: 0cm; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 14.0pt; font-family: 'Times New Roman', serif;">&nbsp;</span></strong></p>
+<p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">我们先来看看几家提供儿童重疾险的保险公司的产品。</span></p>
+<p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">&nbsp;</span></p>
+<table class="MsoNormalTable" style="width: 100.0%; background: white; border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 20.92%; border: solid #DDDDDD 1.0pt; background: #FCFCFC; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 0cm 7.5pt; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">保险公司</span></strong></p>
+</td>
+<td style="width: 22.98%; border: solid #DDDDDD 1.0pt; border-left: none; background: #FCFCFC; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 0cm 7.5pt; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">保额</span></strong></p>
+</td>
+<td style="width: 56.08%; border: solid #DDDDDD 1.0pt; border-left: none; background: #FCFCFC; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 0cm 7.5pt; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">支付方式</span></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 20.92%; border: solid #DDDDDD 1.0pt; border-top: none; background: #F7FAFF; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">Equitable</span></p>
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">Life</span></p>
+</td>
+<td style="width: 22.98%; border-top: none; border-left: none; border-bottom: solid #DDDDDD 1.0pt; border-right: solid #DDDDDD 1.0pt; background: #F7FAFF; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">最多保额</span><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">25万</span></p>
+</td>
+<td style="width: 56.08%; border-top: none; border-left: none; border-bottom: solid #DDDDDD 1.0pt; border-right: solid #DDDDDD 1.0pt; background: #F7FAFF; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">T75或T100</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 20.92%; border: solid #DDDDDD 1.0pt; border-top: none; background: #FCFCFC; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">Canada Life</span></p>
+</td>
+<td style="width: 22.98%; border-top: none; border-left: none; border-bottom: solid #DDDDDD 1.0pt; border-right: solid #DDDDDD 1.0pt; background: #FCFCFC; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">最多保额</span><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">25万</span></p>
+</td>
+<td style="width: 56.08%; border-top: none; border-left: none; border-bottom: solid #DDDDDD 1.0pt; border-right: solid #DDDDDD 1.0pt; background: #FCFCFC; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">保到</span><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">25岁，18岁到25岁可以转为成人保单</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 20.92%; border: solid #DDDDDD 1.0pt; border-top: none; background: #F7FAFF; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">Manulife</span></p>
+</td>
+<td style="width: 22.98%; border-top: none; border-left: none; border-bottom: solid #DDDDDD 1.0pt; border-right: solid #DDDDDD 1.0pt; background: #F7FAFF; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">最多保额</span><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">10万</span></p>
+</td>
+<td style="width: 56.08%; border-top: none; border-left: none; border-bottom: solid #DDDDDD 1.0pt; border-right: solid #DDDDDD 1.0pt; background: #F7FAFF; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">作为成人重疾险保障的附加条款存在，可以保到大人</span><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">65岁</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 20.92%; border: solid #DDDDDD 1.0pt; border-top: none; background: #FCFCFC; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">IA</span></p>
+</td>
+<td style="width: 22.98%; border-top: none; border-left: none; border-bottom: solid #DDDDDD 1.0pt; border-right: solid #DDDDDD 1.0pt; background: #FCFCFC; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">通常要求保额是父母的一半，否则保额不得超过</span><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">20万。</span></p>
+</td>
+<td style="width: 56.08%; border-top: none; border-left: none; border-bottom: solid #DDDDDD 1.0pt; border-right: solid #DDDDDD 1.0pt; background: #FCFCFC; padding: 3.75pt 7.5pt 3.75pt 7.5pt;">
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">保终身，可以在</span><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">20年完成付款，即T100-20pay,还可以选择T10, T20,T25,T75,T100</span></p>
+<p style="margin: 7.5pt 7.5pt 0cm; text-align: justify; line-height: 21.6pt; word-break: break-all; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">可以选择保障</span><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">4种或25种</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 0cm; text-align: justify; line-height: normal; background: white; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #333333;">&nbsp;</span></p>
+<p style="margin: 0cm; text-align: justify; line-height: normal; background: white; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">由于</span><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">IA公司能够提供20年付款保终身的儿童重疾产品，因此在儿童重疾险领域，其市场占有率一直稳居全加拿大第一。由于价格便宜，不少家长都是在孩子一出生即购买儿童重疾险产品。</span></p>
+<p style="margin: 0cm; text-align: justify; line-height: normal; background: white; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">&nbsp;</span></p>
+<p style="margin: 0cm; text-align: justify; line-height: normal; background: white; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm; font-size: 12pt; font-family: 'Times New Roman', serif;"><strong><span style="font-size: 14.0pt; font-family: SimSun;">成人重疾险和儿童重疾险产品的差异</span></strong></p>
+<p style="margin: 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">成人重疾险和儿童重疾险主要的区别在于：</span></p>
+<p style="margin: 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><strong><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #ffa900;">相同保额下保费不同：</span></strong></p>
+<p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">年龄越小保费越低，因此越早买越划算。以</span><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">IA公司的重疾险产品为例，1岁孩子保障10万，20年付完，男孩每月保费91元，女孩每月保费88元。而45岁成人同样保障10万，20年付完，男士每月保费330元，女士每月保费290元。不仅主险保费差异明显，就连保费退还附加条款的保费差异也非常明显。</span></p>
+<p style="margin: 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><strong><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #ffa900;">保障病种不同：</span></strong></p>
+<p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">通常成人重疾险保障</span><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">25项重大疾病（癌症、心脏病和中风是加拿大人最容易诱发的重大疾病，其他22项重大疾病包含：冠状动脉搭桥手术、后天性脑损伤、老人痴呆症、主动脉手术、再生障碍性贫血、良性脑瘤、细菌性脑膜炎、失明、昏迷、失聪、心瓣置换、肾衰竭、肢体截肢、丧失语言能力、主要器官移植、等候替换已衰竭的主要器官、运动神经元疾病、多发性硬化、工伤感染HIV、瘫痪、帕金森症、严重烧伤）</span></p>
+<p style="margin: 7.5pt 0cm 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">而儿童重疾险在成人重疾险的保障病种基础之上，会增加一型糖尿病</span><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">TYPE 1 DIABETES MELLITUS、纤维化囊肿CYSTIC FIBROSIS、肌肉萎缩MUSCULAR DYSTROPHY、大脑瘫痪CEREBRAL PALSY、先天性心脏病CONGENITAL HEART DISEASE、唐氏综合症DOWN SYNDROME等。</span></p>
+<p style="margin: 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><strong><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #ffa900;">体检要求不同：</span></strong></p>
+<p style="margin: 0cm; text-align: justify; line-height: 21.6pt; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">儿童无需体检，成人根据保额和年龄需要体检，而且重疾险的体检标准比较高。尤其是对</span><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">45岁以后的成人，体检要求更高。</span></p>
+<p style="margin: 0cm; text-align: justify; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #333333;">&nbsp;</span></p>
+<p style="margin: 0cm; text-align: justify; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;">&nbsp;</p>
+<p style="margin: 0cm; font-size: 12pt; font-family: 'Times New Roman', serif;"><strong><span style="font-size: 14.0pt; font-family: SimSun;">儿童重疾险配置是家庭刚需</span></strong></p>
+<p style="margin: 0cm; text-align: justify; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">儿童重疾险的配置是家庭刚需，特别是在加拿大。其原因在于：</span></p>
+<p style="margin: 0cm; text-align: justify; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #333333;">&nbsp;</span></p>
+<p style="margin: 0cm; text-align: justify; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">1.加拿大公费医疗效率低下，</span><strong><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #00d100;">等待公费医疗容易延误孩子救治最佳时机</span></strong><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">。</span></p>
+<p style="margin: 0cm; text-align: justify; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #333333;">&nbsp;</span></p>
+<p style="margin: 0cm; text-align: justify; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">2.加拿大重疾险产品都是可以设置保费退还的，相当于用保费的利息为孩子做了一份保障。而加拿大整体金融环境一直处于低利率的状态，用最少的钱给孩子带来终身的保障是明智之举。简单来讲，每月100元左右的预算，缴费20年，保障10万，假设利息3%，相当于每年1000-1200元本金的利息，<strong><span style="font-family: 'Microsoft YaHei', sans-serif;">即</span></strong><strong><span style="font-family: 'Microsoft YaHei', sans-serif;">30-36元的利息（还需缴税）给孩子做了一份10万元重疾险的保障。</span></strong></span><strong><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #00d100;">换句话说，也就是每天</span></strong><strong><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #00d100;">1毛钱，换来10万元的保障！！！</span></strong></p>
+<p style="margin: 0cm; text-align: justify; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #333333;">&nbsp;</span></p>
+<p style="margin: 0cm; text-align: justify; background: white; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">3.加拿大重疾险保费一直在涨价中，唯一涨幅比较少的是儿童重疾险，我们在此做个大胆预测，</span><strong><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #00d100;">儿童重疾险的价格肯定会涨，甚至是付款</span></strong><strong><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #00d100;">20年保终身的产品会渐渐淡出市场</span></strong><span style="font-size: 11.0pt; font-family: 'Microsoft YaHei', sans-serif; color: #a1a1a1;">，到时想申请都无法申请到，因为保险公司承担的风险实在是太高了！</span></p>

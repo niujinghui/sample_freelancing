@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.default_twocolumn_gridlayout {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    grid-column-gap: 15px;
+    grid-row-gap: 5px;
+    align-items: center;
+}
+.default_twocolumn_gridlayout label {
+  white-space: nowrap;
+}
+
+
+.semantic-grouper {
+  display: contents;
+}
+
+
+@keyframes blinking_process {
+  0% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.blinking {
+  animation-duration: 0.15s;
+  animation-name: blinking_process;
+  animation-iteration-count: 5;
+  animation-timing-function: ease-in;
+}
+
+inside-grid-screenlock, inside-grid-counting-screenlock {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  background-color: #272424;
+  transition: opacity 0.7s, z-index 0.1s 0.7s;
+  z-index: -1;
+  opacity: 0;
+}
+
+inside-grid-screenlock.locked, inside-grid-counting-screenlock.locked {
+  cursor: not-allowed;
+  transition: opacity 0.7s, z-index 0.1s;
+  z-index: 99;
+  opacity: 0.65;
+}

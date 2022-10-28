@@ -1,0 +1,19 @@
+
+                            <%inherit file="perspective_template.mako"/>
+                            <ol style="list-style-type: none;" role="tree">
+<li role="treeitem"><br /><input type="checkbox" aria-label="display flex" /> display: flex;</li>
+<li role="treeitem"><input type="checkbox" aria-label="flex-wrap wrap" /> flex-wrap: wrap;</li>
+<li role="treeitem"><input type="checkbox" aria-label="width 100%" /> width: 100%;</li>
+<li role="treeitem"><br /><input type="checkbox" aria-label="display flex" /> display: flex;</li>
+<li role="treeitem"><input type="checkbox" aria-label="flex-wrap wrap" /> flex-wrap: wrap;</li>
+<li role="treeitem"><input type="checkbox" aria-label="width 100%" /> width: 100%;</li>
+<li role="treeitem"><br /><input type="checkbox" aria-label="display flex" /> display: flex;</li>
+<li role="treeitem"><input type="checkbox" aria-label="flex-wrap wrap" /> flex-wrap: wrap;</li>
+<li role="treeitem"><input type="checkbox" aria-label="width 100%" /> width: 100%;</li>
+<li role="treeitem"><br /><input type="checkbox" aria-label="display flex" /> display: flex;</li>
+<li role="treeitem"><input type="checkbox" aria-label="flex-wrap wrap" /> flex-wrap: wrap;</li>
+<li role="treeitem"><input type="checkbox" aria-label="width 100%" /> width: 100%;</li>
+<li role="treeitem"><br /><input type="checkbox" aria-label="display flex" /> display: flex;</li>
+<li role="treeitem"><input type="checkbox" aria-label="flex-wrap wrap" /> flex-wrap: wrap;</li>
+<li role="treeitem"><input type="checkbox" aria-label="width 100%" /> width: 100%;</li>
+</ol>

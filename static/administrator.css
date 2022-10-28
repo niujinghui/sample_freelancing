@@ -1,0 +1,63 @@
+body {
+  grid-template-rows: [page-header-start] 6em [page-header-end main-section-start] auto [main-section-end footer-start] auto [footer-end];
+}
+
+div#exisiting-articles-structure {
+  display: flex;
+}
+
+div#exisiting-articles-structure>ul {
+  width: max-content;
+  border: thick solid yellow;
+  margin: 1em;
+  padding: 2em;
+}
+
+li.exisiting-article:hover {
+  background-color: #d9e42b;
+}
+
+li.exisiting-article>i.far {
+  cursor: pointer;
+  color: red;
+}
+
+li.exisiting-article>i.far:hover {
+  color: #ff9800;
+  transform: scale(1.1);
+}
+
+li.exisiting-article>i.far:first-child {
+  margin-left: 2em;
+}
+
+section.main-section {
+  width: 90%;
+}
+
+form#article-uploading {
+  display: grid;
+  grid-template-columns: 6em 1fr;
+  grid-template-rows: repeat(18, 2em);
+  grid-row-gap: 0.5em;
+  grid-column-gap: 0.5em;
+}
+
+label {
+  grid-column: 1 / 2;
+  text-align: right;
+}
+
+textarea {
+  grid-column: 2 / 3;
+  grid-row: 4 / span 12;
+}
+
+input[type="submit"] {
+  grid-column: 2 / 3;
+  grid-row: -2 / -1;
+}
+
+.hidable_inputs {
+  transition: opacity 0.7s;
+}

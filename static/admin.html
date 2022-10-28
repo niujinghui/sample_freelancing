@@ -1,0 +1,90 @@
+<%inherit file="basepage.mako"/>
+
+<%block name="html_head">
+    ${parent.html_head()}
+    <link rel="stylesheet" type="text/css" href="/static/basepage.css">
+    <link rel="stylesheet" type="text/css" href="/static/admin.css">
+    <script type="module" src="/static/admin.js"></script>
+</%block>
+
+<work-bench>
+    <independent-data-entity classmodel="Product" human_readable_classmodel="商品目录">
+        <overviewbox-flat_table-view>
+          <preset-columns>
+              [{
+                  "is_signature_column": true,
+                  "column_name": "product_signature_name",
+                  "column_display_name": "商品",
+                  "is_visible_on_initialization": true,
+                  "special_datatype": "entity_name"
+              }
+              ]
+          </preset-columns>
+        </overviewbox-flat_table-view>
+        
+        <individualview-editor>
+            <formfield-manyside-entities label="名称"
+                manyside-classmodel="ProductVariantName"
+                foreign-key-name="owning_entity"
+                manyside-signature-column="name_line"
+                name="variant_names">
+            </formfield-manyside-entities>
+            <formfield-moneyamount label="价格" name="price"> </formfield-moneyamount>
+            <formfield-input label="库存量" name="quantity_left"> </formfield-input>
+            <formfield-input label="规格重量" name="packaging_specs"> </formfield-input>
+        </individualview-editor>
+    </independent-data-entity>
+    
+    <dependent-data-entity classmodel="ProductVariantName" human_readable_classmodel="商品名称">
+        <overviewbox-flat_table-view>
+          <preset-columns>
+              [{
+                  "is_signature_column": true,
+                  "column_name": "name_line",
+                  "column_display_name": "名称",
+                  "is_visible_on_initialization": true,
+                  "special_datatype": "entity_name"
+              }
+              ]
+          </preset-columns>
+        </overviewbox-flat_table-view>
+        
+        <individualview-editor>
+            <formfield-input label="商品名称" name="name_line"></formfield-input>
+            <formfield-booleanflag
+                label="作为标识名"
+                name="is_primary_identifying_flag"></formfield-booleanflag>
+        </individualview-editor>
+    </dependent-data-entity>
+    
+    <independent-data-entity classmodel="ProductImage" human_readable_classmodel="商品配图">
+        <overviewbox-flat_table-view>
+          <preset-columns>
+              [{
+                  "is_signature_column": false,
+                  "column_name": "thumbnail",
+                  "column_display_name": "缩略图标",
+                  "is_visible_on_initialization": true
+              },{
+                  "is_signature_column": false,
+                  "column_name": "original_filename",
+                  "column_display_name": "图片原始文件名",
+                  "is_visible_on_initialization": true
+              },{
+                  "is_signature_column": false,
+                  "column_name": "referencing_product_id",
+                  "column_display_name": "对应商品",
+                  "is_visible_on_initialization": true
+              }]
+          </preset-columns>
+        </overviewbox-flat_table-view>
+        
+        <individualview-editor>
+            <formfield-referential-select
+                label="所对应商品"
+                name="referencing_productID"
+                referencing-entity="product_signature_name@Product"></formfield-referential-select>
+            <formfield-file-uploader label="上传图片" name="filename"></formfield-file-uploader>
+        </individualview-editor>
+    </independent-data-entity>
+</work-bench>

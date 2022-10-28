@@ -1,0 +1,155 @@
+section.main-section {
+  display: grid;
+  grid-template-rows: [consultants-title-start] 5em [consultants-title-end consultants-start] auto [consultants-end join-us-title-start] 5em [join-us-title-end join-us-start] auto [join-us-end];
+  grid-row-gap: 3em;
+  justify-items: center;
+}
+
+div#all-consultants {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.consultant {
+  width: 300px;
+  height: 330px;
+  margin: 1em;
+  padding: 35px 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.consultant a {
+  transition: color .2s ease;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  width: 80%;
+  height: 50%;
+  text-align: center;
+}
+
+div.consultant a>img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+div.consultant .divider {
+  width: 50px;
+  height: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+
+div#join-us {
+  grid-row: join-us-start / join-us-end;
+  width: calc((200px + 2em) * 3 + 15vw);
+  box-shadow: 1px 2px 3px 3px lightgrey;
+  border-radius: 8px;
+}
+
+h1#jiaruwomen {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+span.inner-slogan {
+  display: block;
+  font-size: 0.85rem;
+  text-align: end;
+  position: absolute;
+  top: 3em;
+  width: max-content;
+  left: -0.85rem;
+}
+
+div#join-us div.heading {
+  height: 100px;
+  background-color: #b97c01;
+  padding: 0.5em;
+  color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+div.heading>i.fas.decoration-left {
+  order: 1;
+}
+
+div.heading>i.fas.decoration-right {
+  order: 4;
+}
+
+div.heading>h2 {
+  margin: 0 0 0 2em;
+  order: 2;
+  font-size: 2.5em;
+}
+
+div#decaijianbei {
+  order: 3;
+  font-size: 1.5em;
+  margin-right: 3em;
+}
+
+div#join-us div.content {
+  height: 250px;
+  padding: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+div.card-shadow {
+  position: relative;
+  width: 150px;
+  height: 110px;
+  background-color: lightgray;
+  border-radius: 8px;
+  margin: 1em;
+  flex-grow: 1;
+}
+
+div#join-us div.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 15px;
+  background-color: #ecd490;
+  border-radius: 8px;
+  opacity: 0.85;
+  font-size: 1.3em;
+}
+
+div.card>h5 {
+  text-align: center;
+  margin: 5px auto 5px auto;
+  padding-top: 10px;
+}
+
+div.card>p {
+  margin-top: 0;
+  font-size: 0.75em;
+  padding: 0.6em;
+}
+
+div#recruit-hotline {
+  text-align: center;
+  margin: 1em;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 3px 3px lightgrey;
+}
+
+h2.zhaomurexian {}
+
+h2.email {}

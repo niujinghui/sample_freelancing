@@ -1,0 +1,70 @@
+<%!
+%>
+
+
+
+<%inherit file="basepage.mako"/>
+
+<%block name="html_head">
+  ${parent.html_head()}
+  <link rel="stylesheet" type="text/css" href="/static/our_perspectives.css">
+</%block>
+
+  
+  <img class="title-img" src="/gui_images/banner_MDRT_perspective.png"></img>
+  
+  <section class="main-section" id="articles-anchor">
+    
+    <h1>远卓观点 • 文章</h1>
+    
+    <div class="articles-wrapper">
+    
+    % for category in articles_structure[1]:
+      <div class="card article">
+        <img src="/gui_images/insurance_placeholder.jpg"></img>
+        <h2 class="article-title">${category[0]}</h2>
+        <ul>
+          % for subcategory in category[1]:
+          <li>
+          % if len(subcategory[1]) > 0:
+          <a href="perspective_subcategory?subcategory_name=${subcategory[0]}">${subcategory[0]}</a>
+          % else:
+          ${subcategory[0]}
+          % endif
+          </li>
+          % endfor
+        </ul>
+      </div>
+    % endfor
+      
+    </div>
+    
+    <h1>远卓观点 • 视频</h1>
+    
+    <div class="lectures-wrapper">
+      <div class="card lecture">
+        <video controls>
+          <source src="/static/videos/贝茜理财1.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+      <div class="card lecture">
+        <video controls>
+          <source src="/static/videos/贝茜理财2.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+      <div class="card lecture">
+        <video controls>
+          <source src="/static/videos/贝茜理财3.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+      <div class="card lecture">
+        <video controls>
+          <source src="/static/videos/贝茜理财4.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    
+  </section>

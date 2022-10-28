@@ -1,0 +1,75 @@
+body {
+    background-size: cover;
+    border: thick transparent solid;
+}
+
+body {
+  border: thin yellow solid;
+  min-width: 960px;
+  width: 99vw;
+  height: 90vh;
+  position: relative;
+  background-color: var(--background-earth);
+  font-size: calc(0.625vmin + 0.6rem);
+}
+
+form#authenticate {
+    width: 60vw;
+    margin: 40vh auto 100px auto;
+    padding: 25px 20px;
+    display: grid;
+    grid-template-columns: 75px 1fr max-content;
+    grid-template-rows: 5em 5em 2em 5em 1em;
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+}
+
+form>label {
+    grid-column-start: 1;
+}
+
+label > img {
+    height: 90%;
+}
+
+form>input {
+    color: azure;
+}
+
+input.transparent-input {
+    background-color: transparent;
+    grid-column: 2 / -1;
+    font-size: 3rem;
+    border: 0;
+}
+
+::placeholder {
+    color: azure;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    grid-row-start: 4;
+    grid-column: 1 / -1;
+    background-color: #1ea4e4;
+    border-radius: 5em;
+    font-size: 3em;
+    letter-spacing: 0.8em;
+}
+
+a#register {
+    text-decoration: none;
+    font-family: SimSun;
+    font-size: 2.5em;
+    color: azure;
+    grid-row-start: 5;
+    grid-column: 3 / 4;
+}
+
+img#footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

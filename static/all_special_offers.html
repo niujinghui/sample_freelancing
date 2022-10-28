@@ -1,0 +1,53 @@
+<%!
+  import urllib
+%>
+<%inherit file="basepage.mako"/>
+
+<%block name="html_head">
+  ${parent.html_head()}
+  <link rel="stylesheet" type="text/css" href="/static/all_special_offers.css">
+</%block>
+
+  <img class="title-img" src="/gui_images/special_offers.png"></img>
+  
+  <section class="main-section">
+    <h1>特别推荐</h1>
+    
+    <div class="cards-container">
+      % for atcl in all_articles:
+      <div class="card special-offer">
+        <h3><a href="offer?name=${urllib.parse.quote(atcl[0])}">${atcl[1]["article_title"]}</a></h3>
+        <p class="article-excerpt">
+          ${atcl[1]["article_excerpt"]}
+        </p>
+        <a href="offer?name=${urllib.parse.quote(atcl[0])}" class="more-details">详情阅读</a>
+      </div>
+      % endfor
+    </div>
+      
+    <h1>常见案例</h1>
+    
+    <div class="cards-container">
+      <div class="card common-case">
+        <h3>案例一：</h3>
+        <p class="article-excerpt">王先生在加拿大辛苦一生，经营自己企业三十多年，公司积累了500多万元资产。退休后，每年从公司取10万元为自己退休养老。这样王先生不仅每年要交3万多元的所得税，而且连老人金也全部冲消。如果保险工具用得好，王先生从公司拿钱不但可以不交税，而且还不影响老人金。</p>
+      </div>
+      
+      <div class="card common-case">
+        <h3>案例二：</h3>
+        <p class="article-excerpt">先生在某公司购买人寿保险，每年交保费10万元。四年后，国内生意现金流紧张，没能按时交款，半年后发现保单作废，白扔了40万元。如果张先生买保险前找到一位负责的保险经纪，挑选一款更适合自己的人寿保险产品，不但可以从保单抵押33万元来应急公司业务，而且保单还可以延期7年不作废。
+  </p>
+      </div>
+      
+      <div class="card common-case">
+        <h3>案例三：</h3>
+        <p class="article-excerpt">李先生在一起交通事故中，撞伤了人，省高院判赔偿对方760万元，汽车保险公司支付100万元，余额660万元要自己付。可李先生全家资产只有100多万，全部付出还欠500多万。李先生只有申请个人破产来保护自己。一场车祸冲走了马先生的全部储蓄。但如果李先生用好保险理财工具，特定资产在满足一定条件下就可以享受法律保护，法院不可以判决，债主不可以追索。</p>
+      </div>
+      
+      <div class="card common-case">
+        <h3>案例四：</h3>
+        <p class="article-excerpt">赵先生是一个成功人士，10年前以投资移民到加拿大。一落地就汇来100多万，买了房子，不欠贷款，每年从中国汇过来二三十万加币，过着富足的生活。一封加拿大税局的来审计信打乱了生活的平静。政府要他说清买房的钱及每年汇来的钱的来源，因为他没有做好海外资产申报。税局以海外收入漏税罚款，补税及利息要100多万。赵先生不服，该案曾在省高院审理。身为投资移民，如果登陆后如果找专业理财顾问，做好海外资产策划及申报，这一场官司和烦恼应能避免，赵先生还可以继续过他平静的生活。
+  </p>
+      </div>
+    </div>
+  </section>

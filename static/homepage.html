@@ -1,0 +1,77 @@
+<%inherit file="basepage.mako"/>
+
+<%block name="html_head">
+  ${parent.html_head()}
+  <link rel="stylesheet" type="text/css" href="/static/homepage.css">
+  <link href="/static/x0popup.min.css" rel="stylesheet">
+  <script src="/static/x0popup.min.js"></script>
+  <script src="/static/homepage.js"></script>
+</%block>
+  
+  <div class="sliding-photos">
+    % for n in range(3):
+    <img class="photo fade" src="/gui_images/banner${n+1}.png"></img>
+    % endfor
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <div id="sliding-photos-controls">
+    % for n in range(3):
+    <span class="dot" onclick="currentSlide(${n+1})"></span>
+    % endfor
+  </div>
+  
+  <%doc>
+  <div id="slogan-2">
+    <div class="slogan-line">远见卓识 • 理财有道</div>
+    <div class="divider"></div>
+    <div class="slogan-line">Vision &amp; Ways</div>
+  </div>
+  </%doc>
+  
+  <h1 class="visions-and-culture">公司文化</h1>
+  <section class="" id="visions-and-culture">
+    <img src="/gui_images/vision2.jpg"></img>
+    <p class="for-internet-explorer">
+      <span class="leading-sentence">我们的愿景：</span>
+      成为最值得信赖的价值型财税管理服务公司，从成功走向卓越。
+    </p>
+    <p class="for-internet-explorer">
+      <span class="leading-sentence">我们的使命：</span>致力于提供全面专业的投资理财服务，守护每个家庭和企业的幸福安康；打造一支具有核心竞争力的百万圆桌会员团队，快乐工作，成就自我。
+    </p>
+    <p class="for-internet-explorer">
+      <span class="leading-sentence">我们的价值观：</span>“志存高远，追求卓越”，我们将以诚信、专业、勤奋、感恩的精神，用心呵护每一份托付和信赖。
+    </p>
+  </section>
+  
+  <h1 class="special-offers">特别推荐</h1>
+  
+  <div class="special-offer">
+    <a href="all_special_offers/offer?name=疫情下的首选">
+  ## https://mp.weixin.qq.com/s?__biz=MzU1NDAxNDI3MA==&mid=2247485386&idx=1&sn=1ca669a512862353cd744c749331d950&chksm=fbeb449bcc9ccd8d33cbb8fadca30000392e297a3cfa9b1ea81a8414db05f040798caeaa6cf1&mpshare=1&scene=1&srcid=0115CFG1D8i3zxWvGNY25oET&sharer_sharetime=1610698975879&sharer_shareid=35519891c1db6c398a7cdba6b8f53c9d&exportkey=AjsFJJNKOEhjY%2FpMdl%2BAXUE%3D&pass_ticket=BmFOFe6Tgh41GiQyDvoVTpLTgAXtqE1g0j0Bg6VemhB%2Bh1w8C2VSb8EzZ34Cg0gt&wx_header=0#rd
+      <img src="https://uploads-ssl.webflow.com/5bbcefaeb50949332ead52d2/5bbe1e6c278d372d574f53c3_house.jpg"></img>
+      <div class="blog-title">疫情下三合一 保障，100元每月起</div>
+    </a>
+  </div>
+  
+  <div class="special-offer">
+    <a href="all_special_offers/offer?name=换取AppleWatch">
+      ## https://mp.weixin.qq.com/s?__biz=Mzg4MDM4NTE1Nw==&mid=2247484804&idx=1&sn=f3bdcd1e57c59688b2f897414b4f85e7&chksm=cf77486ef800c178b7c78febbdf01a645a0c5527f04b91df7f67960473e00a7d747fec53f190&mpshare=1&scene=1&srcid=1225xuJlL8dSCPHUIAaAYW69&sharer_sharetime=1610698824099&sharer_shareid=35519891c1db6c398a7cdba6b8f53c9d&exportkey=AqsZWXUBo1EEiSY9a%2B64IeU%3D&pass_ticket=BmFOFe6Tgh41GiQyDvoVTpLTgAXtqE1g0j0Bg6VemhB%2Bh1w8C2VSb8EzZ34Cg0gt&wx_header=0#rd
+      <img src="https://uploads-ssl.webflow.com/5bbcefaeb50949332ead52d2/5bbe2b898f2f82ce6486f95c_financial-system.jpg"></img>
+      <div class="blog-title">$97换取Apple Watch 6</div>
+    </a>
+  </div>
+  
+  <div class="special-offer">
+    <a href="all_special_offers/offer?name=报税省税实用妙招大揭秘">
+      ## https://mp.weixin.qq.com/s?__biz=MzU1NDAxNDI3MA==&mid=2247485449&idx=1&sn=2ad26c8fa5b2b988e84ce5f599571274&chksm=fbeb4b58cc9cc24efeac0a8b1fc62ceb4717fd968f7bec7256d9e2104859f6f3e6d519ddd791&mpshare=1&scene=1&srcid=01055SdBUpl62lik8AwZWZvh&sharer_sharetime=1610698798421&sharer_shareid=35519891c1db6c398a7cdba6b8f53c9d&exportkey=AiPekU4GSBF0a0z1lmV8du0%3D&pass_ticket=BmFOFe6Tgh41GiQyDvoVTpLTgAXtqE1g0j0Bg6VemhB%2Bh1w8C2VSb8EzZ34Cg0gt&wx_header=0#rd
+      <img src="/gui_images/snowview.jpg"></img>
+      <div class="blog-title">2020年报税省税实用妙招大揭秘</div>
+    </a>
+  </div>
+  
+  <h5 id="special-offers-more"><a href="/all_special_offers">查看所有推荐</a></h5>
+
+  <div id="chat-bot">
+    <i class="far fa-comment-alt"></i>
+  </div>

@@ -1,0 +1,103 @@
+<%inherit file="basepage.mako"/>
+
+<%block name="html_head">
+  ${parent.html_head()}
+  <link rel="stylesheet" type="text/css" href="/static/our_perspectives.css">
+</%block>
+
+  
+  <img class="title-img" src="/gui_images/banner_MDRT_perspective.png"></img>
+  
+  <section class="main-section" id="articles-anchor">
+    
+    <h1>远卓观点 • 文章</h1>
+    
+    <div class="articles-wrapper">
+      <div class="card article">
+        <img src="/gui_images/insurance_placeholder.jpg"></img>
+        <h2 class="article-title">安心保障</h2>
+        <ul>
+          <li>人寿保险</li>
+          <li>重疾保险</li>
+          <li>伤残保险</li>
+          <li>牙医保险</li>
+          <li>旅行保险</li>
+        </ul>
+      </div>
+      
+      <div class="card article">
+        <img src="/gui_images/insurance_placeholder.jpg"></img>
+        <h2 class="article-title">精明理财</h2>
+        <ul>
+          <li>高息储蓄</li>
+          <li>信用卡申请</li>
+          <li>保本基金</li>
+          <li>分红保险</li>
+        </ul>
+      </div>
+      
+      <div class="card article">
+        <img src="/gui_images/insurance_placeholder.jpg"></img>
+        <h2 class="article-title">合法避税</h2>
+        <ul>
+          <li>家庭及个人税务规划</li>
+          <li>新移民报税</li>
+          <li>企业税务规划</li>
+          <li>家族信托</li>
+          <li>房地产税务</li>
+        </ul>
+      </div>
+      
+      <div class="card article">
+        <img src="/gui_images/insurance_placeholder.jpg"></img>
+        <h2 class="article-title">加国福利</h2>
+        <ul>
+          <li>疫情福利</li>
+          <li>养老福利</li>
+          <li><a href="perspective_category?category_name=儿童福利">儿童福利</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="card article">
+        <img src="/gui_images/insurance_placeholder.jpg"></img>
+        <h2 class="article-title">实时资讯</h2>
+        <ul>
+          <li><a href="/our_perspectives/perspective_article?article_identifier=牛奶金申请全攻略">牛奶金申请全攻略</a></li>
+          <li>牛奶金的正确打开方式</li>
+          <li>加拿大怀孕津贴解读</li>
+          <li>教育基金和百万宝贝：该怎么选？</li>
+          <li>“双非婴”可以享受哪些加拿大福利？</li>
+        </ul>
+      </div>
+    </div>
+    
+    <h1>远卓观点 • 视频</h1>
+    
+    <div class="lectures-wrapper">
+      <div class="card lecture">
+        <video controls>
+          <source src="/static/videos/贝茜理财1.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+      <div class="card lecture">
+        <video controls>
+          <source src="/static/videos/贝茜理财2.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+      <div class="card lecture">
+        <video controls>
+          <source src="/static/videos/贝茜理财3.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+      <div class="card lecture">
+        <video controls>
+          <source src="/static/videos/贝茜理财4.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    
+  </section>

@@ -1,0 +1,54 @@
+<%!
+%>
+
+
+
+<%inherit file="basepage.mako"/>
+
+<%block name="html_head">
+  ${parent.html_head()}
+  <link rel="stylesheet" type="text/css" href="/static/administrator.css">
+  <script src="https://cdn.tiny.cloud/1/v82oxapqkhcmf49jfve0qxwwy10vkb0ztav4kogu19soxb0c/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  <script type="module" src="/static/widget_tabs.js"></script>
+  <script src="/static/administrator.js"></script>
+</%block>
+
+  
+<section class="main-section">
+  
+  <widget-tabs>
+    
+    <h1 slot="widget_tabs-header" data-pointing_to_pane="exisiting-articles-structure">现有文章</h1>
+    <h1 slot="widget_tabs-header" data-pointing_to_pane="article-uploading">新文章上传</h1>
+    
+    <div id="exisiting-articles-structure" slot="widget_tabs-pane"> </div>
+    
+    <form id="article-uploading" slot="widget_tabs-pane" data-default_pane="true">
+      
+      <label for="article_group">文章组</label>
+      <select id="article_group" name="article_group">
+        <option value="all_special_offers">特别推荐</option>
+        <option value="our_perspectives" selected>远卓观点</option>
+      </select>
+      
+      <label for="article_category" class="hidable_inputs">文章大类别</label>
+      <input id="article_category" class="hidable_inputs" type="text" name="article_category" placeholder="加国福利..."/>
+      
+      <label for="article_subcategory" class="hidable_inputs">文章分类别</label>
+      <input id="article_subcategory" class="hidable_inputs" type="text" name="article_subcategory" placeholder="儿童福利..."/>
+      
+      <label for="article_title">文章标题</label>
+      <input id="article_title" type="text" name="article_title" placeholder="牛奶金申请全攻略..."/>
+      
+      <label for="article_excerpt">文章缩写段落</label>
+      <input id="article_excerpt" type="text" name="article_excerpt" placeholder="文章缩写..."/>
+      
+      <label for="article_body">文章正文</label>
+      <textarea id="article_body" name="article_body"></textarea>
+      
+      <input type="submit" value="提交"/>
+    </form>
+    
+  </widget-tabs>
+  
+</section>

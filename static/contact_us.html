@@ -1,0 +1,51 @@
+<%inherit file="basepage.mako"/>
+
+<%block name="html_head">
+  ${parent.html_head()}
+  <link rel="stylesheet" type="text/css" href="/static/contact_us.css">
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiZM1CEzkJErB6Ttl8AUtio3K2r10Ben4&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+  <script src="/static/contact_us.js"></script>
+</%block>
+  
+  <img class="title-img" src="/gui_images/contact_us.png"></img>
+  
+  <section class="main">
+    <h1>联系我们</h1>
+    
+    <div class="left">
+      <div id="google-map"> </div>
+      
+      <div id="company-address">
+        <p>办公地址：**** – *** W73rd Avenue</p>
+        <p>Vancouver, BC V6P 6G5</p>
+        <p>联系电话： 778-892-****</p>
+        <p>电子邮箱：info@***.com</p>
+      </div>
+    </div>
+    
+    <div id="message-board">
+      <h3>您的留言</h3>
+      <form action="message_board">
+        <label for="fl-name">Name</label>
+        <input type="text" id="fl-name" name="sender_name" value="" placeholder="姓名">
+        
+        <label for="fl-email">Email</label>
+        <input type="email" id="fl-email" name="sender_email" value="" placeholder="电子邮箱">
+        
+        <label for="fl-message">Your Message</label>
+        <textarea id="fl-message" name="message_content" placeholder="留言"></textarea>
+        
+        <input type="submit" value="提交">
+      </form>
+    </div>
+      
+  </section>
+  
+  <section id="photos-gallery">
+    % for n in range(6):
+    <img class="office-photo" src="/gui_images/office${n+1}.jpg"></img>
+    % endfor
+  </section>
